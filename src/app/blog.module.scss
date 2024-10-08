@@ -1,0 +1,149 @@
+/* Blog.module.scss */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .blogHeader {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .postList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .postCard {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .postCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .featuredImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .postTitle {
+    font-size: 1.5rem;
+    color: #211951;
+    margin-bottom: 1rem;
+  }
+  
+  .postExcerpt {
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .postMeta {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 1rem;
+  }
+  
+  .readMore {
+    font-size: 1rem;
+    color: white;
+    background-color: #836FFF;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .readMore:hover {
+    background-color: #594ae2;
+  }
+
+  .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #211951;
+  }
+
+  p {
+    color: #676767;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+
+  .readMore {
+    background-color: #836FFF;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #211951;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  button {
+    background-color: #836FFF;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #211951;
+    }
+  }
+}

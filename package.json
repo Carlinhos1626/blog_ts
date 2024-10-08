@@ -1,0 +1,23 @@
+{
+  "name": "blog-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.8",
+    "graphql": "^16.9.0",
+    "next": "14.2.14",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.79.4"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14"
+  }
+}

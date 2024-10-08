@@ -1,0 +1,47 @@
+/* globals.scss */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  
+  h1, h2 {
+    font-weight: 600;
+    color: #211951;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Botões e links de navegação */
+  button, a {
+    background-color: #836FFF;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover, a:hover {
+    background-color: #594ae2;
+  }
+  
